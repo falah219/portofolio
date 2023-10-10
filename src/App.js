@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Home } from './components/Home';
-import {Profile} from './components/Profile'
+import { Footer } from './components/Footer';
 import './App.css';
 
 function App() {
@@ -11,6 +11,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
       </Routes>
+      <Footer/>
+
     </div>
   );
 }

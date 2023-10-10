@@ -44,8 +44,11 @@ export const Home = () => {
               <img className="w-10 mr-4" src={whatsapp} alt="" />
             </div>
           </div>
-          <div className="mx-36 my-20 w-128 md:max-w-sm">
+          <div className="mx-auto md:mx-36 my-20 w-60 md:w-full md:max-w-sm">
+            <center>
             <img src={logo} alt="" />
+
+            </center>
           </div>
       </section>
       <section id="skill" className="bg-ijohTuwek flex flex-wrap gap-4">
@@ -78,7 +81,7 @@ export const Home = () => {
               <p className="text-coklat text-base mt-3">Javascript</p>
             </div>
             <div className="mr-20 mt-20">
-              <img className="h-20" src={github_svg} alt="" />
+              <img src={github_svg} alt="" />
               <p className="text-coklat text-base mt-3">Github</p>
             </div>
             <div className="mr-20 mt-20">
