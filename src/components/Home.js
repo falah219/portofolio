@@ -15,6 +15,10 @@ import todoApp from "../assets/img/todo-app.png";
 import cinema from "../assets/img/cinema.png";
 import food from "../assets/img/food.png";
 import jatis from "../assets/img/jatis.png";
+import panah from "../assets/img/panah.svg";
+import pesan from "../assets/img/pesan.svg";
+import phone from "../assets/img/phone.svg";
+import linkedin2 from "../assets/img/linkedin2.svg";
 
 export const Home = () => {
   return (
@@ -293,22 +297,48 @@ export const Home = () => {
         
 
       </section>
-      <section className="bg-hitam py-10 pb-16">
+      <section id="contact" className="bg-hitam py-10 pb-16">
         <h1 className="text-coklat text-4xl my-5">Lets Make Your Success Project</h1>
         <p className="text-coklat text-sm font-serif">Click on one below for discussion</p>
-        <div className="my-15 grid grid-cols-1 md:grid-cols-3">
-          <div className="flex flex-col justify-center ml-36">
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="53" height="54" viewBox="0 0 53 54" fill="none">
-                <path d="M26.5002 2L26.5002 52M26.5002 52L2.88911 28.3889M26.5002 52L50.1113 28.3889" stroke="#D8E9A8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+        <div className="my-15 grid grid-cols-1 md:grid-cols-3 justify-items-center">
+          <div className="flex flex-col my-10">
+            <div className="my-5">
+              <center>
+                <img src={panah} alt="" />
+              </center>
             </div>
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="101" height="80" viewBox="10 0 0 140 60" fill="none">
-                <path d="M85.5 0H15.5C11.5218 0 7.70644 1.58035 4.8934 4.3934C2.08035 7.20644 0.5 11.0218 0.5 15V65C0.5 68.9782 2.08035 72.7936 4.8934 75.6066C7.70644 78.4196 11.5218 80 15.5 80H85.5C89.4782 80 93.2936 78.4196 96.1066 75.6066C98.9196 72.7936 100.5 68.9782 100.5 65V15C100.5 11.0218 98.9196 7.20644 96.1066 4.3934C93.2936 1.58035 89.4782 0 85.5 0ZM82.15 10L50.5 33.75L18.85 10H82.15ZM85.5 70H15.5C14.1739 70 12.9021 69.4732 11.9645 68.5355C11.0268 67.5979 10.5 66.3261 10.5 65V16.25L47.5 44C48.3655 44.6491 49.4181 45 50.5 45C51.5819 45 52.6345 44.6491 53.5 44L90.5 16.25V65C90.5 66.3261 89.9732 67.5979 89.0355 68.5355C88.0979 69.4732 86.8261 70 85.5 70Z" fill="#D8E9A8"/>
-              </svg>
+            <div className="my-5">
+              <center>
+                <img src={pesan} alt="" />
+              </center>
             </div>
             <p className="text-coklat">falahyudhistira219@gmail.com</p>
+          </div>
+          <div className="flex flex-col my-10">
+            <div className="my-5">
+              <center>
+                <img src={panah} alt="" />
+              </center>
+            </div>
+            <div className="my-5">
+              <center>
+                <img src={phone} alt="" />
+              </center>
+            </div>
+            <p className="text-coklat">081326043795</p>
+          </div>
+          <div className="flex flex-col my-10">
+            <div className="my-5">
+              <center>
+                <img src={panah} alt="" />
+              </center>
+            </div>
+            <div className="my-5">
+              <center>
+                <img src={linkedin2} alt="" />
+              </center>
+            </div>
+            <p className="text-coklat">falahyudhistira</p>
           </div>
         </div>
       </section>

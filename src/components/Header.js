@@ -30,7 +30,7 @@ export const Header = () => {
                     <a href="#project" className="block py-2 pl-3 pr-4 text-white rounded ">Projects</a>
                     </li>
                     <li>
-                    <NavLink to="#" className="block py-2 pl-3 pr-4 text-white rounded bg-ijoh ">Contact Me</NavLink>
+                    <a href="#contact" className="block py-2 pl-3 pr-4 text-white rounded bg-ijoh ">Contact Me</a>
                     </li>
                 </ul>
                 </div>
