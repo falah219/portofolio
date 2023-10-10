@@ -188,9 +188,9 @@ export const Home = () => {
           </div>
       </section>
       <section id="project" className="bg-ijohTuwek py-20">
-        <h1 className="text-4xl text-left text-coklat my-10 md:ml-32 mb-5 md:mb-15">My Latest Project</h1>
+        <h1 className="text-2xl text-left text-coklat ml-10 md:ml-32 mb-5 md:mb-15">My Latest Project</h1>
         <div className="ml-10 md:ml-32 grid grid-cols-1 md:grid-cols-3">
-          <div className="max-w-xs shadow text-left mt-10">
+          <div className="max-w-xs text-left mt-10">
               
                 <div className="flex">
                   <img className="rounded-lg" src={ecommerce} alt="" />
@@ -211,7 +211,7 @@ export const Home = () => {
                   
               </div>
           </div>
-          <div className="max-w-xs shadow text-left mt-10">
+          <div className="max-w-xs text-left mt-10">
               
                 <div className="flex">
                   <img className="rounded-lg" src={todoApp} alt="" />
@@ -232,7 +232,7 @@ export const Home = () => {
                   
               </div>
           </div>
-          <div className="max-w-xs shadow text-left mt-10">
+          <div className="max-w-xs text-left mt-10">
               
                 <div className="flex">
                   <img className="rounded-lg" src={cinema} alt="" />
@@ -253,7 +253,7 @@ export const Home = () => {
                   
               </div>
           </div>
-          <div className="max-w-xs shadow text-left mt-10">
+          <div className="max-w-xs text-left mt-10">
               
                 <div className="flex">
                   <img className="rounded-lg" src={food} alt="" />
@@ -274,7 +274,7 @@ export const Home = () => {
                   
               </div>
           </div>
-          <div className="max-w-xs shadow text-left mt-10">
+          <div className="max-w-xs text-left mt-10">
               
                 <div className="flex">
                   <img className="rounded-lg" src={jatis} alt="" />
