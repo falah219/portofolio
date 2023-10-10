@@ -188,7 +188,7 @@ export const Home = () => {
           </div>
       </section>
       <section id="project" className="bg-ijohTuwek py-20">
-        <h1 className="text-2xl text-left text-coklat ml-10 md:ml-32 mb-5 md:mb-15">My Latest Project</h1>
+        <h1 className="text-4xl text-left text-coklat ml-10 mr-10 md:ml-32 mb-5 md:mb-15">My Latest Project</h1>
         <div className="ml-10 md:ml-32 grid grid-cols-1 md:grid-cols-3">
           <div className="max-w-xs text-left mt-10">
               
