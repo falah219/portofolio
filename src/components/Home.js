@@ -23,11 +23,11 @@ import linkedin2 from "../assets/img/linkedin2.svg";
 export const Home = () => {
   return (
     <main>
-      <section id="profile" className="bg-hitam flex flex-wrap-reverse">
-          <div className="mx-5 md:ml-32 md:my-20 max-w-2xl">
+      <section id="profile" className="bg-hitam flex flex-wrap-reverse pt-10">
+          <div className="mx-5 md:ml-10 lg:ml-32 md:my-20 lg:max-w-2xl">
             <div className="flex">
               <h3 className="text-ijoh text-lg md:text-xl text-left">Hi, i'm Falah Yudhstira Hanan</h3>
-              <img className="w-12 -mt-3 ml-3" src={logo2} alt="" />
+              <img className="w-12 -mt-3 ml-1" src={logo2} alt="" />
             </div>
             <h1 className="text-coklat text-2xl md:text-4xl text-left mt-5">Junior Front End Developer</h1>
             <p className="text-ijoh text-xs mt-10 leading-8 text-justify">Fresh Graduate dari Universitas Muhammadiyah Surakarta, jurusan Sarjana Informatika dengan motivasi
@@ -44,47 +44,44 @@ export const Home = () => {
               <img className="w-10 mr-4" src={whatsapp} alt="" />
             </div>
           </div>
-          <div className="mx-auto md:mx-36 my-20 w-60 md:w-full md:max-w-sm">
-            <center>
+          <div className="mx-auto flex items-center justify-center my-20 w-60 md:w-full md:max-w-sm">
             <img src={logo} alt="" />
-
-            </center>
           </div>
       </section>
-      <section id="skill" className="bg-ijohTuwek flex flex-wrap gap-4">
-        <div className="mx-5 md:mx-32 my-10 md:max-w-lg">
+      <section id="skill" className="bg-ijohTuwek flex flex-wrap">
+        <div className="my-10 mx-5 md:mx-10 lg:mx-32">
           <h1 className="text-coklat text-4xl my-10 text-left">My Achivement</h1>
-          <div className="grid grid-cols-2 md:max-w-lg">
+          <div className="flex">
               <div className="text-left text-coklat mt-4 mr-10">
                 <p className="text-2xl text-left">1+</p>
                 <p className="text-sm">Years Experience</p>
               </div>
               <div className="text-left text-coklat md:ml-8 mt-4">
-                <span className="text-zxl">4+</span>
+                <span className="text-2xl">4+</span>
                 <p className="text-sm">Projects Completed</p>
               </div>
           </div>
         </div>
-        <div className="mx-5 md:mx-44 my-3 md:my-10 md:max-w-lg">
+        <div className="my-3 md:my-10 mx-5 md:mx-10 lg:mx-32">
           <h1 className="text-coklat text-4xl my-5 md:my-10 text-left">Skills</h1>
-          <div className="grid grid-cols-3 my-10">
-            <div className="mr-20">
+          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-3 my-10">
+            <div className="mr-10 md:mr-16 lg:mr-16 flex flex-col items-center justify-center">
               <img src={html} alt="" />
               <p className="text-coklat text-base mt-3">HTML</p>
             </div>
-            <div className="mr-20">
+            <div className="mr-10 md:mr-16 lg:mr-16 flex flex-col items-center justify-center">
               <img src={css} alt="" />
               <p className="text-coklat text-base mt-3">CSS</p>
             </div>
-            <div className="mr-20">
+            <div className="mr-10 md:mr-16 lg:mr-16 flex flex-col items-center justify-center">
               <img src={javascript} alt="" />
               <p className="text-coklat text-base mt-3">Javascript</p>
             </div>
-            <div className="mr-20 mt-20">
+            <div className="mr-10 md:mr-16 lg:mr-16 md:mt-0 mt-8 flex flex-col items-center justify-center">
               <img src={github_svg} alt="" />
               <p className="text-coklat text-base mt-3">Github</p>
             </div>
-            <div className="mr-20 mt-20">
+            <div className="mr-10 md:mr-16 lg:mr-16 md:mt-8 mt-8 lg:my-8 flex flex-col items-center justify-center">
               <img src={react} alt="" />
               <p className="text-coklat text-base mt-3">React JS</p>
             </div>
@@ -93,13 +90,12 @@ export const Home = () => {
       </section>
       <section id="experience" className="bg-hitam pt-10 pb-16">
           <h1 className="text-coklat text-4xl my-10 text-center">My Experience Work</h1>
-          <div className="flex mt-20">
+          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32">
             <div className="flex flex-col">
-              <svg xmlns="http://www.w3.org/2000/svg" className="ml-5 md:ml-32" width="64" height="64" viewBox="0 0 64 64" fill="none">
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
                 <circle cx="32" cy="32" r="20" fill="#FF0000"/>
                 <circle cx="32" cy="32" r="31" stroke="#4E9F3D" strokeWidth="2" strokeDasharray="8 8"/>
               </svg>
-              <div className="ml-12 md:ml-40 line1"></div>
             </div>
             <div className="mx-10">
               <h1 className="text-coklat font-serif text-xl text-justify font-bold">Lembaga Bahasa dan Ilmu Pengetahuan Umum (LBIPU) Universitas Muhammadiyah Surakarta</h1>
@@ -114,14 +110,12 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32">
             <div className="flex flex-col">
-              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="ml-5 md:ml-32">
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="32" cy="32" r="20" fill="#FFD600"/>
                 <circle cx="32" cy="32" r="31" stroke="#4E9F3D" strokeWidth="2" strokeDasharray="8 8"/>
               </svg>
-
-              <div className="ml-12 md:ml-40 line2"></div>
             </div>
             <div className="mx-10">
               <h1 className="text-coklat font-serif text-xl text-justify font-bold">PT Informasi Teknologi Indonesia</h1>
@@ -137,14 +131,14 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32">
             <div className="flex flex-col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" className="ml-5 md:ml-32">
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
                 <circle cx="32" cy="32" r="20" fill="#00FF0A"/>
                 <circle cx="32" cy="32" r="31" stroke="#4E9F3D" strokeWidth="2" strokeDasharray="8 8"/>
               </svg>
 
-              <div className="ml-12 md:ml-40 line3"></div>
+              
             </div>
             <div className="mx-10">
               <h1 className="text-coklat font-serif text-xl text-justify font-bold">Bangkit Academy 2022 by Google, GoTo, Traveloka</h1>
@@ -160,14 +154,14 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32">
             <div className="flex flex-col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" className="ml-5 md:ml-32">
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
                 <circle cx="32" cy="32" r="20" fill="#0085FF"/>
                 <circle cx="32" cy="32" r="31" stroke="#4E9F3D" strokeWidth="2" strokeDasharray="8 8"/>
               </svg>
 
-              <div className="ml-12 md:ml-40 line4"></div>
+              
             </div>
             <div className="mx-10">
               <h1 className="text-coklat font-serif text-xl text-justify font-bold">Binar Academy</h1>
@@ -188,117 +182,115 @@ export const Home = () => {
           </div>
       </section>
       <section id="project" className="bg-ijohTuwek py-20">
-        <h1 className="text-4xl text-left text-coklat ml-10 mr-10 md:ml-32 mb-5 md:mb-15">My Latest Project</h1>
-        <div className="ml-10 md:ml-32 grid grid-cols-1 md:grid-cols-3">
-          <div className="max-w-xs text-left mt-10">
-              
-                <div className="flex">
-                  <img className="rounded-lg" src={ecommerce} alt="" />
-                  <a href="https://github.com/falah219/mbanyumbiru" target="_blank" rel="noopener noreferrer">
-                    <div className="-ml-10 mt-36 bg-hitam h-10 w-10 p-2 rounded-full">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                        <path d="M2 23.6667L23.6667 2M23.6667 2V22.8M23.6667 2H2.86667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </div>                    
-                  </a>
+        <h1 className="text-4xl text-left text-coklat mx-10 md:mx-10 lg:mx-32 md:mb-15">My Latest Project</h1>
+        <div className="flex items-center justify-center mt-10 container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14">
+                  <div className="flex">
+                    <img className="rounded-lg" src={ecommerce} alt="" />
+                    <a href="https://github.com/falah219/mbanyumbiru" target="_blank" rel="noopener noreferrer">
+                      <div className="-ml-10 mt-36 bg-hitam h-10 w-10 p-2 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                          <path d="M2 23.6667L23.6667 2M23.6667 2V22.8M23.6667 2H2.86667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      </div>                    
+                    </a>
+                  </div>
+                <div>
+                    <NavLink href="#">
+                        <h5 className="my-2 text-lg font-bold tracking-tight text-coklat">E-commerce Penjualan Cupang</h5>
+                    </NavLink>
+                    <p className="mb-3 font-normal text-coklat text-xs">Web App / Multiple Pages</p>
                 </div>
+            </div>
+            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14">
+                
+                  <div className="flex">
+                    <img className="rounded-lg" src={todoApp} alt="" />
+                    <a href="https://todo-list-halaf.vercel.app/" target="_blank" rel="noopener noreferrer">
+                      <div className="-ml-10 mt-36 bg-hitam h-10 w-10 p-2 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                          <path d="M2 23.6667L23.6667 2M23.6667 2V22.8M23.6667 2H2.86667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      </div>                    
+                    </a>
+                  </div>
 
-              <div>
-                  <NavLink href="#">
-                      <h5 className="my-2 text-lg font-bold tracking-tight text-coklat">E-commerce Penjualan Cupang</h5>
-                  </NavLink>
-                  <p className="mb-3 font-normal text-coklat text-xs">Web App / Multiple Pages</p>
-                  
-              </div>
-          </div>
-          <div className="max-w-xs text-left mt-10">
-              
-                <div className="flex">
-                  <img className="rounded-lg" src={todoApp} alt="" />
-                  <a href="https://todo-list-halaf.vercel.app/" target="_blank" rel="noopener noreferrer">
-                    <div className="-ml-10 mt-36 bg-hitam h-10 w-10 p-2 rounded-full">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                        <path d="M2 23.6667L23.6667 2M23.6667 2V22.8M23.6667 2H2.86667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </div>                    
-                  </a>
+                <div>
+                    <NavLink href="#">
+                        <h5 className="my-2 text-lg font-bold tracking-tight text-coklat">Todo List App</h5>
+                    </NavLink>
+                    <p className="mb-3 font-normal text-coklat text-xs">Web App / Single Page</p>
+                    
                 </div>
+            </div>
+            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14">
+                
+                  <div className="flex">
+                    <img className="rounded-lg" src={cinema} alt="" />
+                    <a href="https://github.com/falah219/02---CinemaAPI-Falyuha" target="_blank" rel="noopener noreferrer">
+                      <div className="-ml-10 mt-36 bg-hitam h-10 w-10 p-2 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                          <path d="M2 23.6667L23.6667 2M23.6667 2V22.8M23.6667 2H2.86667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      </div>                    
+                    </a>
+                  </div>
 
-              <div>
-                  <NavLink href="#">
-                      <h5 className="my-2 text-lg font-bold tracking-tight text-coklat">Todo List App</h5>
-                  </NavLink>
-                  <p className="mb-3 font-normal text-coklat text-xs">Web App / Single Page</p>
-                  
-              </div>
-          </div>
-          <div className="max-w-xs text-left mt-10">
-              
-                <div className="flex">
-                  <img className="rounded-lg" src={cinema} alt="" />
-                  <a href="https://github.com/falah219/02---CinemaAPI-Falyuha" target="_blank" rel="noopener noreferrer">
-                    <div className="-ml-10 mt-36 bg-hitam h-10 w-10 p-2 rounded-full">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                        <path d="M2 23.6667L23.6667 2M23.6667 2V22.8M23.6667 2H2.86667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </div>                    
-                  </a>
+                <div>
+                    <NavLink href="#">
+                        <h5 className="my-2 text-lg font-bold tracking-tight text-coklat">List Cinema with Imbd API</h5>
+                    </NavLink>
+                    <p className="mb-3 font-normal text-coklat text-xs">Web App / Multiple Pages</p>
+                    
                 </div>
+            </div>
+            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14">
+                
+                  <div className="flex">
+                    <img className="rounded-lg" src={food} alt="" />
+                    <a href="https://github.com/What-s-The-Food" target="_blank" rel="noopener noreferrer">
+                      <div className="-ml-10 mt-36 bg-hitam h-10 w-10 p-2 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                          <path d="M2 23.6667L23.6667 2M23.6667 2V22.8M23.6667 2H2.86667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      </div>                    
+                    </a>
+                  </div>
 
-              <div>
-                  <NavLink href="#">
-                      <h5 className="my-2 text-lg font-bold tracking-tight text-coklat">List Cinema with Imbd API</h5>
-                  </NavLink>
-                  <p className="mb-3 font-normal text-coklat text-xs">Web App / Multiple Pages</p>
-                  
-              </div>
-          </div>
-          <div className="max-w-xs text-left mt-10">
-              
-                <div className="flex">
-                  <img className="rounded-lg" src={food} alt="" />
-                  <a href="https://github.com/What-s-The-Food" target="_blank" rel="noopener noreferrer">
-                    <div className="-ml-10 mt-36 bg-hitam h-10 w-10 p-2 rounded-full">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                        <path d="M2 23.6667L23.6667 2M23.6667 2V22.8M23.6667 2H2.86667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </div>                    
-                  </a>
+                <div>
+                    <NavLink href="#">
+                        <h5 className="my-2 text-lg font-bold tracking-tight text-coklat">What's the Food</h5>
+                    </NavLink>
+                    <p className="mb-3 font-normal text-coklat text-xs">Mobile App</p>
+                    
                 </div>
+            </div>
+            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14">
+                
+                  <div className="flex">
+                    <img className="rounded-lg" src={jatis} alt="" />
+                    <a href="https://github.com/What-s-The-Food" target="_blank" rel="noopener noreferrer">
+                      <div className="-ml-10 mt-36 bg-hitam h-10 w-10 p-2 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                          <path d="M2 23.6667L23.6667 2M23.6667 2V22.8M23.6667 2H2.86667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      </div>                    
+                    </a>
+                  </div>
 
-              <div>
-                  <NavLink href="#">
-                      <h5 className="my-2 text-lg font-bold tracking-tight text-coklat">What's the Food</h5>
-                  </NavLink>
-                  <p className="mb-3 font-normal text-coklat text-xs">Mobile App</p>
-                  
-              </div>
-          </div>
-          <div className="max-w-xs text-left mt-10">
-              
-                <div className="flex">
-                  <img className="rounded-lg" src={jatis} alt="" />
-                  <a href="https://github.com/What-s-The-Food" target="_blank" rel="noopener noreferrer">
-                    <div className="-ml-10 mt-36 bg-hitam h-10 w-10 p-2 rounded-full">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                        <path d="M2 23.6667L23.6667 2M23.6667 2V22.8M23.6667 2H2.86667" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </div>                    
-                  </a>
+                <div>
+                    <NavLink href="#">
+                        <h5 className="my-2 text-lg font-bold tracking-tight text-coklat">Pemasukan Bulanan Jatis</h5>
+                    </NavLink>
+                    <p className="mb-3 font-normal text-coklat text-xs">Web / Multiple Pages</p>
+                    
                 </div>
-
-              <div>
-                  <NavLink href="#">
-                      <h5 className="my-2 text-lg font-bold tracking-tight text-coklat">Pemasukan Bulanan Jatis</h5>
-                  </NavLink>
-                  <p className="mb-3 font-normal text-coklat text-xs">Web / Multiple Pages</p>
-                  
-              </div>
+            </div>
+            
           </div>
-          
+
         </div>
-        
-
       </section>
       <section id="contact" className="bg-hitam py-10 pb-16">
         <h1 className="text-coklat text-4xl my-5">Lets Make Your Success Project</h1>
