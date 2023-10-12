@@ -9,7 +9,7 @@ export const Contactt = () => {
         <h1 className="text-coklat text-4xl my-5">Lets Make Your Success Project</h1>
         <p className="text-coklat text-sm font-serif">Click on one below for discussion</p>
         <div className="my-15 grid grid-cols-1 md:grid-cols-3 justify-items-center">
-          <div className="flex flex-col my-10">
+          <div className="flex flex-col my-10" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
             <div className="my-5">
               <center>
                 <img src={panah} alt="" />
@@ -22,7 +22,7 @@ export const Contactt = () => {
             </div>
             <p className="text-coklat">falahyudhistira219@gmail.com</p>
           </div>
-          <div className="flex flex-col my-10">
+          <div className="flex flex-col my-10" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1700">
             <div className="my-5">
               <center>
                 <img src={panah} alt="" />
@@ -37,7 +37,7 @@ export const Contactt = () => {
             </div>
             <p className="text-coklat">081326043795</p>
           </div>
-          <div className="flex flex-col my-10">
+          <div className="flex flex-col my-10" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
             <div className="my-5">
               <center>
                 <img src={panah} alt="" />

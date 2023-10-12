@@ -9,7 +9,7 @@ export const Project = () => {
         <h1 className="text-4xl text-left text-coklat mx-10 md:mx-10 lg:mx-32 md:mb-15">My Latest Project</h1>
         <div className="flex items-center justify-center mt-10 container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14">
+            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                   <div className="flex">
                     <img className="rounded-lg" src={ecommerce} alt="" />
                     <a href="https://github.com/falah219/mbanyumbiru" target="_blank" rel="noopener noreferrer">
@@ -25,7 +25,7 @@ export const Project = () => {
                     <p className="mb-3 font-normal text-coklat text-xs">Web App / Multiple Pages</p>
                 </div>
             </div>
-            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14">                
+            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14" data-aos="fade-right" data-aos-offset="320" data-aos-easing="ease-in-sine">                
                   <div className="flex">
                     <img className="rounded-lg" src={todoApp} alt="" />
                     <a href="https://todo-list-halaf.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -41,7 +41,7 @@ export const Project = () => {
                     <p className="mb-3 font-normal text-coklat text-xs">Web App / Single Page</p>                    
                 </div>
             </div>
-            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14">                
+            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14" data-aos="fade-right" data-aos-offset="340" data-aos-easing="ease-in-sine">                
                   <div className="flex">
                     <img className="rounded-lg" src={cinema} alt="" />
                     <a href="https://github.com/falah219/02---CinemaAPI-Falyuha" target="_blank" rel="noopener noreferrer">
@@ -57,7 +57,7 @@ export const Project = () => {
                     <p className="mb-3 font-normal text-coklat text-xs">Web App / Multiple Pages</p>                    
                 </div>
             </div>
-            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14">                
+            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14" data-aos="fade-right" data-aos-offset="360" data-aos-easing="ease-in-sine">                
                   <div className="flex">
                     <img className="rounded-lg" src={food} alt="" />
                     <a href="https://github.com/What-s-The-Food" target="_blank" rel="noopener noreferrer">
@@ -73,7 +73,7 @@ export const Project = () => {
                     <p className="mb-3 font-normal text-coklat text-xs">Mobile App</p>                    
                 </div>
             </div>
-            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14">                
+            <div className="max-w-xs text-left mt-10 md:mx-8 lg:mx-14" data-aos="fade-right" data-aos-offset="400" data-aos-easing="ease-in-sine">                
                   <div className="flex">
                     <img className="rounded-lg" src={jatis} alt="" />
                     <a href="https://github.com/What-s-The-Food" target="_blank" rel="noopener noreferrer">

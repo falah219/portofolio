@@ -2,7 +2,7 @@ export const Exp = () => {
   return (
     <section id="experience" className="bg-hitam pt-10 pb-16">
           <h1 className="text-coklat text-4xl my-10 text-center">My Experience Work</h1>
-          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32">
+          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32" data-aos="fade-up" data-aos-duration="1500">
             <div className="flex flex-col">
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
                 <circle cx="32" cy="32" r="20" fill="#FF0000"/>
@@ -22,7 +22,7 @@ export const Exp = () => {
               </div>
             </div>
           </div>
-          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32">
+          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32" data-aos="fade-up" data-aos-duration="1500">
             <div className="flex flex-col">
               <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="32" cy="32" r="20" fill="#FFD600"/>
@@ -43,7 +43,7 @@ export const Exp = () => {
               </div>
             </div>
           </div>
-          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32">
+          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32" data-aos="fade-up" data-aos-duration="1500">
             <div className="flex flex-col">
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
                 <circle cx="32" cy="32" r="20" fill="#00FF0A"/>
@@ -66,7 +66,7 @@ export const Exp = () => {
               </div>
             </div>
           </div>
-          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32">
+          <div className="flex mt-20 ml-5 md:ml-10 lg:ml-32" data-aos="fade-up" data-aos-duration="1500">
             <div className="flex flex-col">
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
                 <circle cx="32" cy="32" r="20" fill="#0085FF"/>

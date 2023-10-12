@@ -7,7 +7,7 @@ import react from "../assets/img/react.svg";
 export const Skill = () => {
   return (
     <section id="skill" className="bg-ijohTuwek flex flex-wrap">
-        <div className="my-10 mx-5 md:mx-10 lg:mx-32">
+        <div className="my-10 mx-5 md:mx-10 lg:mx-32" data-aos="fade-up-right">
           <h1 className="text-coklat text-4xl my-10 text-left">My Achivement</h1>
           <div className="flex">
               <div className="text-left text-coklat mt-4 mr-10">
@@ -20,7 +20,7 @@ export const Skill = () => {
               </div>
           </div>
         </div>
-        <div className="my-3 md:my-10 mx-5 md:mx-10 lg:mx-32">
+        <div className="my-3 md:my-10 mx-5 md:mx-10 lg:mx-32" data-aos="fade-up-left">
           <h1 className="text-coklat text-4xl my-5 md:my-10 text-left">Skills</h1>
           <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-3 my-10">
             <div className="mr-10 md:mr-16 lg:mr-16 flex flex-col items-center justify-center">
