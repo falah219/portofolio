@@ -115,7 +115,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
                 id="hero-download-cv"
-                href="/Falah_Yudhistira_CV.pdf"
+                href="/CV-Falah-Yudhistira-Hanan.pdf"
                 download
                 className="btn-primary flex items-center justify-center gap-2 text-base"
               >
